@@ -1,0 +1,32 @@
+#test {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.test {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+}
+
+/*
+Специфичность - приоритет:
+1) inline-style;
+2) # - id;
+3) . - class;
+4) element - div.
+*/
+
+/*
+Ключевой селектор - a:
+.test #test a
+
+Порядок справа налево.
+*/
