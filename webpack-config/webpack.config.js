@@ -14,16 +14,19 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', {
-          loader: 'css-loader',
-          options: {
-            modules: {
-              localIdentName: "[path][name]__[local]--[hash:base64:3]",
-              localIdentContext: path.resolve(__dirname, "src"),
-              exportLocalsConvention: "camelCase",
+        use: [
+          'style-loader', 
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                localIdentName: "[path][name]__[local]--[hash:base64:3]",
+                localIdentContext: path.resolve(__dirname, "src"),
+                exportLocalsConvention: "camelCase",
+              },
             },
           },
-        }],
+        ],
       },
       {
         test: /\.jsx?$/,
@@ -36,12 +39,13 @@ module.exports = {
               '@babel/preset-react',
             ],
           },
-        }
+        },
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin({
-    template:
-     './public/index.html',
-  })],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+    }),
+  ],
 };
