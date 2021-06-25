@@ -10,11 +10,6 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.json', '.jsx'],
   },
-  devServer: {
-    open: true,
-    contentBase: path.join(__dirname, 'dist'),
-    port: 5501,
-  },
   module: {
     rules: [
       {
