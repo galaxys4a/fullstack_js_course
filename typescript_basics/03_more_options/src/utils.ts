@@ -1,3 +1,10 @@
+/**
+ * Функция сложения.
+ * 
+ * @param a {number} - Первое число.
+ * @param b {number} - Второе число.
+ * @returns 
+ */
 export const add = (a: number, b: number) => {
     if (a > 0) {
         return a + b;
