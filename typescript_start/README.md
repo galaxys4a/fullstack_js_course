@@ -1,5 +1,3 @@
-# Typescript basics
-
 ```shell
 npm init -y
 npm i -g typescript
