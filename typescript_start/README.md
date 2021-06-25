@@ -6,7 +6,7 @@ npm i -g typescript
 tsc --init
 ```
 
-# Installation
+## Installation
 ```shell
 npm init -y
 npm i @ijl/cli
