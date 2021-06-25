@@ -1,0 +1,1 @@
+# Another example of tsconfig.json
