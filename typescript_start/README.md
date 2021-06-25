@@ -6,7 +6,7 @@ npm i -g typescript
 tsc --init
 ```
 
-## Install and run
+## Hello world app using ijl library
 ```shell
 npm init -y
 npm i @ijl/cli
