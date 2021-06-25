@@ -11,4 +11,4 @@
 
 ## Контакты 
 * [телеграм](https://t.me/qblackdoom)
-* [email](galaxys4a@gmail.com)
+* [email](mailto:galaxys4a@gmail.com)
